@@ -94,38 +94,7 @@ else:
     print (f"{user_answer} is Incorrect. The correct answer is {answer}. Pascal")
 
 # ROLDAN, GIAN RAFAEL
-print(" ")
-print("7. (Gian Rafael Roldan) Who is known as 'The King' in the NBA?")
-print(" ")
-print("A. Wilt Chamberlain","               C. Michael Jordan")
-print("B. Kobe Bryant","                    D. LeBron James")
-print("")
-
-answer = "d"
-user_answer = input("Enter your answer: ").lower()
-
-if user_answer == answer:
-    print("Correct!")
-    score += 1
-else:
-    print(f"{user_answer} is incorrect. The correct answer is {answer}.")
-
-print(" ")
-print("8. (Gian Rafael Roldan) Who is known as 'The Mamba' in the NBA?")
-print(" ")
-print("A. Wilt Chamberlain","               C. Michael Jordan")
-print("B. Kobe Bryant","                    D. LeBron James")
-print("")
-
-answer = "b"
-user_answer = input("Enter your answer: ").lower()
-
-if user_answer == answer:
-    print("Correct!")
-    score += 1
-else:
-    print(f"{user_answer} is incorrect. The correct answer is {answer}.")
-
+# Add quiz questions here
 
 # TERO, ALTHENO MARI
 print(" ")
