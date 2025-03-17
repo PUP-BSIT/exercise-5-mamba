@@ -7,6 +7,7 @@ print ("1.(Ernesto Bernas) What is the name of the main character in Yugi-Oh?")
 print ("")
 print ("A. Yugi Muto","                     C. Joey Wheeler") 
 print ("B. Seto Kaiba","                    D. Maximillian Pegasus")
+print ("")
 
 answer = "a"
 user_answer = input("Enter your answer: ").lower()
@@ -15,13 +16,14 @@ if user_answer == answer:
     score += 1
     print ("Correct")
 else:
-    print (f"{user_answer} is Incorrect. The correct answer is {answer}. Yugi Muto")
+    print (f"{user_answer} is Incorrect. The correct answer is {answer}.")
     
 print ("")
 print ("2.(Ernesto Bernas) Who originally owns the Blue-Eyes White Dragon card?")
 print ("")
 print ("A. Main Character's Grandfather","  C. Main Character's Mom") 
 print ("B. Main Character's Sister","       D. Main Character's Dad")
+print ("")
 
 answer = "a"
 user_answer = input("Enter your answer: ").lower()
@@ -30,13 +32,14 @@ if user_answer == answer:
     score += 1
     print ("Correct")
 else:
-    print (f"{answer} is Incorrect. The correct answer is {answer}. Main Character's Grandfather")
+    print (f"{user_answer} is Incorrect. The correct answer is {answer}.")
 
-print("")
+print ("")
 print ("3. (Ernesto Bernas) What is Maximillian Pegasus’ claim to fame?")
-print(" ")
+print (" ")
 print ("A. The creator of Duel Monsters","  C. The creator of Duel Monsters Battle City") 
 print ("B. The creator of the Duel Arena"," D. The creator of Duel Monsters Duelist Kingdom")
+print ("")
 
 answer = "a" 
 user_answer = input("Enter your answer: ").lower()
@@ -45,7 +48,7 @@ if user_answer == answer:
     score += 1
     print ("Correct!")
 else:
-    print (f"{user_answer} is Incorrect. The correct answer is {answer} He is the creator of Duel Monsters")
+    print (f"{user_answer} is Incorrect. The correct answer is {answer}.")
 
 # BUENACIFRA, ABRIANNE
 print ("")
@@ -53,6 +56,7 @@ print ("4.(Abrianne Buenacifra) Who is the main character in Tangled?")
 print ("")
 print ("A. Rapunzel","                      C. Eugene") 
 print ("B. Gothel","                        D. Maximus")
+print ("")
 
 answer = "a"
 user_answer = input("Enter your answer: ").lower()
@@ -61,40 +65,73 @@ if user_answer == answer:
     score += 1
     print ("Correct!")
 else:
-    print (f"{user_answer} is Incorrect. The correct answer is {answer}. Rapunzel")
+    print (f"{user_answer} is Incorrect. The correct answer is {answer}.")
 
 print ("")
 print ("5.(Abrianne Buenacifra) What are the floating lights called?")
 print ("")
 print ("A. Fireflies","                      C. Stars") 
 print ("B. Lanterns","                       D. Sun")
+print ("")
 
 answer = "b"
 user_answer = input("Enter your answer: ").lower()
 
-if user_answer == "b":
+if user_answer == answer:
     score += 1
     print ("Correct!")
 else:
-    print (f"{user_answer} is Incorrect. The correct answer is {answer}. Lanterns")
+    print (f"{user_answer} is Incorrect. The correct answer is {answer}.")
 
 print ("")
 print ("6.(Abrianne Buenacifra) What is the name of the chameleon in Tangled?")
 print ("")
 print ("A. Pascual","                        C. Pascal") 
 print ("B. Pascul","                         D. Pasqual")
+print ("")
 
 answer = "c"
 user_answer = input("Enter your answer: ").lower()
 
-if user_answer == "c":
+if user_answer == answer:
     score += 1
     print ("Correct!")
 else:
-    print (f"{user_answer} is Incorrect. The correct answer is {answer}. Pascal")
+    print (f"{user_answer} is Incorrect. The correct answer is {answer}.")
 
 # ROLDAN, GIAN RAFAEL
-# Add quiz questions here
+print(" ")
+print("7. (Gian Rafael Roldan) Who is known as 'The King' in the NBA?")
+print(" ")
+print("A. Wilt Chamberlain","               C. Michael Jordan")
+print("B. Kobe Bryant","                    D. LeBron James")
+print("")
+
+answer = "d"
+user_answer = input("Enter your answer: ").lower()
+
+if user_answer == answer:
+    print("Correct!")
+    score += 1
+else:
+    print(f"{user_answer} is incorrect. The correct answer is {answer}.")
+
+print(" ")
+print("8. (Gian Rafael Roldan) Who is known as 'The Mamba' in the NBA?")
+print(" ")
+print("A. Wilt Chamberlain","               C. Michael Jordan")
+print("B. Kobe Bryant","                    D. LeBron James")
+print("")
+
+answer = "b"
+user_answer = input("Enter your answer: ").lower()
+
+if user_answer == answer:
+    print("Correct!")
+    score += 1
+else:
+    print(f"{user_answer} is incorrect. The correct answer is {answer}.")
+
 
 # TERO, ALTHENO MARI
 print(" ")
