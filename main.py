@@ -44,11 +44,12 @@ print ("A. Michael Jordan","  C. LeBron James")
 print ("B. Kobe Bryant","       D. Stephen Curry")
 input ("Enter your answer: ")
 
-if Answer == "C" or Answer == "c":
+if answer == "C" or answer == "c":
     score += 1
     print ("Correct")
 else:
-    print (f"{Answer} is Incorrect. The correct answer is C. LeBron James")
+    print (f" answer
+} is Incorrect. The correct answer is C. LeBron James")
 
 print ("")
 print ("8.(Gian Rafael Roldan) Who is known as 'The Mamba' in the NBA?")
@@ -56,11 +57,12 @@ print ("A. Michael Jordan","  C. LeBron James")
 print ("B. Kobe Bryant","       D. Stephen Curry")
 input ("Enter your answer: ")
 
-if Answer == "B" or Answer == "b":
+if answer == "B" or answer == "b":
     score += 1
     print ("Correct")
 else:
-    print (f"{Answer} is Incorrect. The correct answer is B. Kobe Bryant")
+    print (f" answer
+} is Incorrect. The correct answer is B. Kobe Bryant")
 
 if score >= 5:
     print (f"Congratulations! You got {score} out of 10 Items")
