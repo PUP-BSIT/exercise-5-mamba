@@ -38,6 +38,30 @@ if Answer == "A" or Answer == "a":
 else:
     print (f"{Answer} is Incorrect. The correct answer is A. He is the creator of Duel Monsters")
 
+print ("")
+print ("7.(Gian Rafael Roldan) Who is known as 'The King' in the NBA?")
+print ("A. Michael Jordan","  C. LeBron James") 
+print ("B. Kobe Bryant","       D. Stephen Curry")
+input ("Enter your answer: ")
+
+if Answer == "C" or Answer == "c":
+    score += 1
+    print ("Correct")
+else:
+    print (f"{Answer} is Incorrect. The correct answer is C. LeBron James")
+
+print ("")
+print ("8.(Gian Rafael Roldan) Who is known as 'The Mamba' in the NBA?")
+print ("A. Michael Jordan","  C. LeBron James") 
+print ("B. Kobe Bryant","       D. Stephen Curry")
+input ("Enter your answer: ")
+
+if Answer == "B" or Answer == "b":
+    score += 1
+    print ("Correct")
+else:
+    print (f"{Answer} is Incorrect. The correct answer is B. Kobe Bryant")
+
 if score >= 5:
     print (f"Congratulations! You got {score} out of 10 Items")
 else: 
