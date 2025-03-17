@@ -1,4 +1,4 @@
-#BERNAS, ERNESTO
+# BERNAS, ERNESTO
 score = 0
 
 print ("Mamba Quiz")
@@ -47,27 +47,27 @@ if user_answer == answer:
 else:
     print (f"{user_answer} is Incorrect. The correct answer is {answer} He is the creator of Duel Monsters")
 
-#ROLDAN, GIAN RAFAEL
+# BUENACIFRA, ABRIANNE
 print ("")
-print ("7.(Gian Rafael Roldan) Who is known as 'The King' in the NBA?")
+print ("4.(Abrianne Buenacifra) Who is the main character in Tangled?")
 print ("")
-print ("A. Michael Jordan","                C. LeBron James") 
-print ("B. Kobe Bryant","                   D. Stephen Curry")
+print ("A. Rapunzel","                      C. Eugene") 
+print ("B. Gothel","                        D. Maximus")
 
-answer = "c"
+answer = "a"
 user_answer = input("Enter your answer: ").lower()
 
 if user_answer == answer:
     score += 1
     print ("Correct!")
 else:
-    print (f"{user_answer} is Incorrect. The correct answer is {answer}. Lebron James")
+    print (f"{user_answer} is Incorrect. The correct answer is {answer}. Rapunzel")
 
 print ("")
-print ("8.(Gian Rafael Roldan) Who is known as 'The Mamba' in the NBA?")
+print ("5.(Abrianne Buenacifra) What are the floating lights called?")
 print ("")
-print ("A. Michael Jordan","                C. Lebron James") 
-print ("B. Kobe Bryant","                   D. Stephen Curry")
+print ("A. Fireflies","                      C. Stars") 
+print ("B. Lanterns","                       D. Sun")
 
 answer = "b"
 user_answer = input("Enter your answer: ").lower()
@@ -76,11 +76,29 @@ if user_answer == "b":
     score += 1
     print ("Correct!")
 else:
-    print (f"{user_answer} is Incorrect. The correct answer is {answer}. Kobe Bryant")
+    print (f"{user_answer} is Incorrect. The correct answer is {answer}. Lanterns")
 
-#TERO, ALTHENO MARI
+print ("")
+print ("6.(Abrianne Buenacifra) What is the name of the chameleon in Tangled?")
+print ("")
+print ("A. Pascual","                        C. Pascal") 
+print ("B. Pascul","                         D. Pasqual")
+
+answer = "c"
+user_answer = input("Enter your answer: ").lower()
+
+if user_answer == "c":
+    score += 1
+    print ("Correct!")
+else:
+    print (f"{user_answer} is Incorrect. The correct answer is {answer}. Pascal")
+
+# ROLDAN, GIAN RAFAEL
+# Add quiz questions here
+
+# TERO, ALTHENO MARI
 print(" ")
-print("9. (Altheno Mari L. Tero) Who holds the record for the most points scored in a single NBA game?")
+print("9. (Altheno Mari Tero) Who holds the record for the most points scored in a single NBA game?")
 print(" ")
 print("A. Wilt Chamberlain","               C. Michael Jordan")
 print("B. Kobe Bryant","                    D. LeBron James")
@@ -96,7 +114,7 @@ else:
     print(f"{user_answer} is incorrect. The correct answer is {answer}.")
  
 print(" ")
-print("(Altheno Mari L. Tero) 10. 3. What is the regulation height of a basketball hoop from the floor?")
+print("10. (Altheno Mari Tero) What is the regulation height of a basketball hoop from the floor?")
 print(" ")
 print("A. 9 feet","                         C. 10 feet")
 print("B. 11 feet","                        D. 12 feet")
@@ -116,5 +134,3 @@ if score >=5:
     print(f"Congratulations! You got {score} out of 10")
 else:
     print(f"Failed! You got {score} out of 10")
-    
-
